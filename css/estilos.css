@@ -1,0 +1,73 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');*/
+
+/* " * "" Sirve para indicar que todos los tag/etiquetas de html van a heredar estos estilos*/
+*{
+	/*background: #CCCCCC;*/
+	font-family: sans-serif;
+}
+
+.border-bottom-1px{
+	border-bottom: solid #DDDDDD 1px;
+}
+.ul-vertical {
+	list-style: none;
+	margin: 0;
+	padding: 8px;
+	background-color: #bbb;
+	display: inline-block;
+}
+.ul-vertical li {
+	background-color: #777;
+	width: 150px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #666;
+}
+.ul-vertical li+li {
+	margin-top: 8px;
+}
+
+.bg-navbar{
+	background-color: rgba(255,255,255,0.96);
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+.height-100p{
+	height: 100%;
+}
+
+.background-footer{
+	background-color:steelblue;
+}
+.container-boton{
+	transform: hover;
+	transition: 0.3s;
+}
+/* a:active {
+	background-color: yellow;
+  } */
+
+.no-decoration{
+	text-decoration: none;
+}
+
+ul li.active a
+{
+	background-color:#DDDDDD;
+	
+	
+}
+@media  (max-width: 768px){	
+	.landing-text h1{
+		font-size: 300%;
+	}
+}
+
+
+   
+
+
+
+
+
